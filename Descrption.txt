@@ -1,0 +1,7 @@
+
+-I am coding a finger recognition system using Python and additional libraries to connect with Arduino, such as PySerial. 
+-My algorithm is quite simple: I use a bit, either 1 or 0, to check if the fingers have touched each other. 
+-If they have touched, it will send a bit 1 to Arduino; otherwise, it will send a bit 0. 
+-In the Arduino, I use an L298D controller, which is grounded together with the Arduino. 
+-If the Arduino receives a bit 1, it will reduce the resistance to the motor, allowing more current to flow and making the motor spin faster.
+-Conversely, it increases the resistance to slow down the motor.
